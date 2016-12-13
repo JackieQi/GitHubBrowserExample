@@ -11,7 +11,7 @@ import OctoKit
 import ReSwift
 import ReSwiftRouter
 
-var store = Store<State>(reducer: AppReducer(), state: nil)
+var store = Store<State>(reducer: AppReducer().handleAction, state: nil)
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

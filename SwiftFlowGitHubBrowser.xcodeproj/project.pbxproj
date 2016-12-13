@@ -9,14 +9,11 @@
 /* Begin PBXBuildFile section */
 		251A75DC1C94F92900EBEB32 /* BookmarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251A75DB1C94F92900EBEB32 /* BookmarkViewController.swift */; };
 		2532E8F61C8F8BFB003F5392 /* BookmarkActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2532E8F51C8F8BFB003F5392 /* BookmarkActions.swift */; };
-		254B3B951D3ABBFF00B1E4F0 /* OctoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254B3B881D3ABBCE00B1E4F0 /* OctoKit.framework */; };
 		254B3B961D3ABBFF00B1E4F0 /* OctoKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 254B3B881D3ABBCE00B1E4F0 /* OctoKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		254B3B991D3ABC0400B1E4F0 /* RequestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254B3B701D3ABBC400B1E4F0 /* RequestKit.framework */; };
 		254B3B9A1D3ABC0400B1E4F0 /* RequestKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 254B3B701D3ABBC400B1E4F0 /* RequestKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		254B3B9D1D3ABC0A00B1E4F0 /* ReSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254B3B581D3ABBB400B1E4F0 /* ReSwift.framework */; };
 		254B3BA11D3ABC1300B1E4F0 /* ReSwiftRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254B3B401D3ABBAB00B1E4F0 /* ReSwiftRouter.framework */; };
 		254B3BA21D3ABC1300B1E4F0 /* ReSwiftRouter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 254B3B401D3ABBAB00B1E4F0 /* ReSwiftRouter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2565B86A1DE74F440016371D /* SAMKeychain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 253038F41D92D8B900AA49F4 /* SAMKeychain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2565B89F1DE7506C0016371D /* ReSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 254B3B581D3ABBB400B1E4F0 /* ReSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2574204D1D4421410002D020 /* BookmarkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2574204C1D4421410002D020 /* BookmarkService.swift */; };
 		257420841D442A7C0002D020 /* RepositoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257420831D442A7C0002D020 /* RepositoryTableViewCell.swift */; };
@@ -46,6 +43,9 @@
 		62EF0ABA1C700D9D00D13711 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62EF0AA81C700D1F00D13711 /* Nimble.framework */; };
 		62EF0ABB1C700DA200D13711 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62EF0A8D1C700D1200D13711 /* Quick.framework */; };
 		7A7A57191C91D78C00670D38 /* ListKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 62C935581C8CD6B400887A23 /* ListKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C82842FC1E0080F30090888B /* OctoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82842FB1E0080F30090888B /* OctoKit.framework */; };
+		C82842FE1E0080FB0090888B /* RequestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82842FD1E0080FB0090888B /* RequestKit.framework */; };
+		C828430C1E0086250090888B /* SAMKeychain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C828430B1E0086250090888B /* SAMKeychain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -503,7 +503,7 @@
 				254B3B9A1D3ABC0400B1E4F0 /* RequestKit.framework in Embed Frameworks */,
 				2565B89F1DE7506C0016371D /* ReSwift.framework in Embed Frameworks */,
 				7A7A57191C91D78C00670D38 /* ListKit.framework in Embed Frameworks */,
-				2565B86A1DE74F440016371D /* SAMKeychain.framework in Embed Frameworks */,
+				C828430C1E0086250090888B /* SAMKeychain.framework in Embed Frameworks */,
 				254B3BA21D3ABC1300B1E4F0 /* ReSwiftRouter.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -550,6 +550,9 @@
 		62EF0A801C700D1200D13711 /* Quick.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Quick.xcodeproj; path = Carthage/Checkouts/Quick/Quick.xcodeproj; sourceTree = SOURCE_ROOT; };
 		62EF0A9E1C700D1F00D13711 /* Nimble.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Nimble.xcodeproj; path = Carthage/Checkouts/Nimble/Nimble.xcodeproj; sourceTree = SOURCE_ROOT; };
 		62EF0AB51C700D4900D13711 /* GitHubAuthSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubAuthSpec.swift; sourceTree = "<group>"; };
+		C82842FB1E0080F30090888B /* OctoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OctoKit.framework; path = Carthage/Build/iOS/OctoKit.framework; sourceTree = "<group>"; };
+		C82842FD1E0080FB0090888B /* RequestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RequestKit.framework; path = Carthage/Build/iOS/RequestKit.framework; sourceTree = "<group>"; };
+		C828430B1E0086250090888B /* SAMKeychain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SAMKeychain.framework; path = Carthage/Build/iOS/SAMKeychain.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -557,9 +560,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				254B3B951D3ABBFF00B1E4F0 /* OctoKit.framework in Frameworks */,
+				C82842FC1E0080F30090888B /* OctoKit.framework in Frameworks */,
 				254B3B9D1D3ABC0A00B1E4F0 /* ReSwift.framework in Frameworks */,
-				254B3B991D3ABC0400B1E4F0 /* RequestKit.framework in Frameworks */,
+				C82842FE1E0080FB0090888B /* RequestKit.framework in Frameworks */,
 				62C935791C8CD6E500887A23 /* ListKit.framework in Frameworks */,
 				254B3BA11D3ABC1300B1E4F0 /* ReSwiftRouter.framework in Frameworks */,
 			);
@@ -684,9 +687,11 @@
 		25BB76141C3CB8CB008EA13B = {
 			isa = PBXGroup;
 			children = (
+				C828430B1E0086250090888B /* SAMKeychain.framework */,
 				25BB761F1C3CB8CB008EA13B /* SwiftFlowGitHubBrowser */,
 				62EF0A761C700C2300D13711 /* SwiftFlowGitHubBrowserTests */,
 				25BB761E1C3CB8CB008EA13B /* Products */,
+				C82842D91E0080F30090888B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -870,6 +875,15 @@
 			path = GithubAuthSpec;
 			sourceTree = "<group>";
 		};
+		C82842D91E0080F30090888B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C82842FD1E0080FB0090888B /* RequestKit.framework */,
+				C82842FB1E0080F30090888B /* OctoKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -921,7 +935,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Benji Encz";
 				TargetAttributes = {
 					25BB761C1C3CB8CB008EA13B = {
@@ -1516,8 +1530,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1561,8 +1577,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1581,6 +1599,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1589,9 +1608,12 @@
 		25BB76301C3CB8CB008EA13B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SwiftFlowGitHubBrowser/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1604,9 +1626,12 @@
 		25BB76311C3CB8CB008EA13B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SwiftFlowGitHubBrowser/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
